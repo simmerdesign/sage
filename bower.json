@@ -9,7 +9,7 @@
   "dependencies": {
     "bootstrap-sass-official": "3.3.5",
     "modernizr": "2.8.2",
-    "slick": "*"
+    "slick-carousel": "~1.5.8"
   },
   "overrides": {
     "modernizr": {
@@ -36,6 +36,9 @@
         "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
         "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
       ]
+    },
+    "slick": {
+      "main": "./slick.js"
     }
   }
 }

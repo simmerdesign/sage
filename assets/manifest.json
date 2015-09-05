@@ -22,6 +22,9 @@
     },
     "modernizr.js": {
       "bower": ["modernizr"]
+    },
+    "slick.js": {
+      "bower": ["slick-carousel"]
     }
   },
   "config": {
