@@ -18,6 +18,12 @@ $sage_includes = [
   'lib/assets.php',                // Scripts and stylesheets
   'lib/titles.php',                // Page titles
   'lib/extras.php',                // Custom functions
+  'lib/custom-content-types.php',  // Custom content types
+  'lib/custom-taxonomies.php',     // Custom taxonomies
+  'lib/acf-fields.php',            // ACF field definitions
+  'lib/admin.php',                 // Custom admin styling hooks
+  'lib/bootstrap-nav.php',         // Custom functions
+  'lib/post-thumbnails.php',       // Custom functions
 ];
 
 foreach ($sage_includes as $file) {
