@@ -1,16 +1,16 @@
 <?php
 
 function admin_css() {
-  echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('template_directory') . '/assets/css/admin.css" />';
+  echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('template_directory') . '/dist/styles/admin.css" />';
 }
-// add_action('admin_head', 'admin_css');
+add_action('admin_head', 'admin_css');
 
 
 // style login form
 function login_stylesheet() { ?>
-    <link rel="stylesheet" id="login_css"  href="<?php echo get_bloginfo( 'stylesheet_directory' ) . '/assets/css/login.css'; ?>" type="text/css" media="all" />
+    <link rel="stylesheet" id="login_css"  href="<?php echo get_bloginfo( 'stylesheet_directory' ) . '/dist/styles/login.css'; ?>" type="text/css" media="all" />
 <?php }
-// add_action( 'login_enqueue_scripts', 'login_stylesheet' );
+add_action( 'login_enqueue_scripts', 'login_stylesheet' );
 
 
 // function custom_menu_order($menu_ord) {
