@@ -24,6 +24,7 @@ $sage_includes = [
   'lib/admin.php',                 // Custom admin styling hooks
   'lib/bootstrap-nav.php',         // Custom functions
   'lib/post-thumbnails.php',       // Custom functions
+  'lib/dev.php',                   // Handy functions for use during development
 ];
 
 foreach ($sage_includes as $file) {
